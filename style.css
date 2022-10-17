@@ -1,5 +1,5 @@
-* {
-    background-image:linear-gradient(#CCDAE0, #EDF2F4)
+body {
+    background-image:radial-gradient(at top center, #CCDAE0, #EDF2F4);
 }
 
 header {
@@ -24,7 +24,7 @@ article {
     border: 1px solid black;
 }
 
-img {
+section img {
     display: block;
     margin: auto;
     border: #8D99AE 2px solid;
@@ -50,3 +50,6 @@ a:hover {
     color: #2B2D42;
 }
 
+abbr {
+    color: red;
+}
